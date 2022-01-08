@@ -1,0 +1,59 @@
+body{
+  background: linear-gradient(to right, #ffbc40, #aa78ff);
+}
+
+.div_pai{
+  margin-top: 6%;
+  background-color: white;
+  padding: 2%;
+  text-align: center;
+}
+
+.div_pai h2{
+  font-size: 200%;
+}
+
+.div_pai p{
+  text-indent: 1.5%;
+  font-size: 150%;
+  text-align: justify;
+}
+
+.bem-vindo{
+  font-size: 150%;
+  background: pink;
+  padding: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.continue_explorando{
+  font-size: 150%;
+  background: pink;
+  padding: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+hr{
+  height: 4px;
+  background-color: grey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#foto{
+  width: 300px;
+  border-radius: 100%;
+  margin-bottom: 1.5%;
+}
+
+#p1{
+  width: 100%;
+}

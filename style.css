@@ -1,0 +1,100 @@
+body{
+ background-color: #ffffff;
+ margin: 0;
+ box-sizing: border-box;
+}
+/*vamos colocar uma largura limit para este menu e aconselhando usar poncetagem somente e
+  smaphones*/
+.barra{
+ margin-left: 300px ;
+ margin-top: 10px;
+ width: 600px;
+ color: #7a71ac; 
+ cursor: pointer;
+ margin-bottom: 4px;
+}
+/*atenction this style is removend because is is not necessary*/
+.barra ul{
+    border-bottom: 2px solid #7a71ac;
+}
+.barra li{
+font-size: 18px;
+padding-left: 10px;
+display: inline-block;
+opacity: 0.5;
+}
+.barra li:hover{
+color: white;
+text-shadow: orange 5px 10px 26px;
+transition: 0.3s;
+}
+.barra a{
+text-decoration: none;
+}
+/*criar layout usando grid */
+.content_main{
+  margin: 0;
+  background-size: 1200px 700px;
+  width: 1200px;
+  border-right: 2px solid #7a71ac;
+  height: 700px;
+  overflow: auto;
+}
+.content_main div{
+  margin-top: 200px;
+  background-image: url("samuel_home.jpeg");
+  height: 350px;
+  width: 350px;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  border-radius: 240px;
+  float: right;
+}
+.content_main div #Iam{
+  margin-top: 360px;
+  margin-left: 100px;
+  font-size: large;
+  color: #7a71ac;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.content_main  h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+   font-size: 60px;
+   color: rgb(6, 6, 218);
+   text-align: center;
+   margin-top:  220px;
+   margin-left: 10px;
+}
+.content_main #Pales{
+  margin-left: 200px;
+  background-color: #7a71ac;
+  color: white;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.explore{
+  width: 80px;
+  padding: 10px;
+  height: 40px;
+  color: white;
+  background-color: #7a71ac;
+  border-radius: 20px;
+  resize: 0;
+  margin-left: 200px ;
+}
+.play{
+  margin-left: 40px ;
+  border: none;
+  text-decoration: none;
+}
+.play img{
+  width: 30px;
+  height: 30px;
+}
